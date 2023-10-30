@@ -12,6 +12,7 @@
     background-color: rgba(0, 0, 0, 0.55);
     font-family: 'Merriweather', serif;
     box-shadow: 1px 1px 3px rgba(255, 255, 255, 0.54);
+    z-index: 99;
 }
 
 .cc-navbar .nav-link {
@@ -29,6 +30,12 @@
     no-repeat;
     background-size: cover;
     height: 1200px;
+}
+
+.banner .banner-desc {  
+    font-size: 48px;
+    font-weight: 400;
+    color: #fff;
 }
 
 .btn-order {
