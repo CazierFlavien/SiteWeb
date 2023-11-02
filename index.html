@@ -4,6 +4,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+
     <!-- Bootstrap CSS -->
       <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
       <link rel="stylesheet" href="assets/css/style.css" />
@@ -13,7 +15,7 @@
   <body>
       <nav class="cc-navbar navbar navbar-expand-lg position-fixed navbar-dark w-100">
         <div class="container-fluid">
-          <a class="navbar-brand text-uppercase fw-bolder mx-4 py-3" href="#">Lorem ipsum</a>
+          <a class="navbar-brand text-uppercase fw-bolder mx-4 py-3" href="#">CHEZ FLAMBRE</a>
           <button 
           class="navbar-toggler" 
           type="button" 
@@ -50,8 +52,8 @@
             <div class="col-md-6"></div>
             <div class="col-md-6">
               <h1 class="text-capitalize py-3 redressed banner-desc">
-                  Lorem ipsum dolor sit amet <br />
-                  elit Molestias explicabo saepe fugiat
+                  Qu'il s'agisse d'un rendez-vous romantique ou <br />
+                  d'une soirée entre amis, les restauranrs sont vos amis parfaits !
                 </h1>
                 <p>
                   <button class="btn btn-order btn-lg me-5 rounded-0 merriweather">Comander maintenant</button>
@@ -276,14 +278,32 @@
             <div class="row">
               <div class="col-mb-6 col-sm">
                 <div class="input-group mb-3">
-                  <span class="input-group-text" id="basic-addon1"><i class="fas fa-at"></i></span>
+                  <span class="input-group-text" id="basic-addon1"><i class="fas fa-user"></i></span>
                   <input type="text" class="form-control" placeholder="Votre nom" />
+                </div>
+                <div class="input-group mb-3">
+                  <label class="input-group-text" for="inputGroupSelect01"><i class="fas fa-utesils"></i></label>
+                  <select class="form-select" id="inputGroupSelect01">
+                    <option selected>Choisir un menu</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                  </select>
+                </div>
+                <div class="input-group mb-3">
+                  <label class="input-group-text" for="inputGroupSelect01"><i class="fas fa-sort-numeric-up-alt"></i></label>
+                  <select class="form-select" id="inputGroupSelect01">
+                    <option selected>Nombre de personnes</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                  </select>
                 </div>
               </div>
               <div class="col-mb-6 col-sm">
                 <div class="input-group mb-3">
                   <input type="email" class="form-control" placeholder="Votre email" />
-                  <span class="input-group-text" id="basic-addon1"></span>
+                  <span class="input-group-text" id="basic-addon1"><i class="fas fa-at"></i></span>
                 </div>
                 <div class="input-group mb-3">
                   <input type="number" class="form-control" placeholder="Numero de téléphone" />
@@ -293,6 +313,16 @@
                   <input type="text" class="form-control" placeholder="Adresse zone Ex:. Yopougon 54" />
                   <span class="input-group-text" id="basic-addon1"><i class="fas fa-home"></i></span>
                 </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="input-group mb-3">
+                <span class="input-group-text" id="basic-addon1">Préciser le nombre de personnes</span>
+                <input type="text" class="form-control" placeholder="Ex:. 5" />
+              </div>
+              <div class="input-group">
+                <span class="input-group-text">Autres informations</span>
+                <textarea class="form-control" aria-label="With textarea"></textarea>
               </div>
             </div>
           </form>
